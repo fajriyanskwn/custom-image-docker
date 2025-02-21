@@ -27,4 +27,4 @@ php-fpm -D
 service nginx start
 
 # Jaga container tetap berjalan
-exec "$@"
+tail -f /dev/null
